@@ -1,7 +1,7 @@
 # Command line WebSocket client
 
-Simple tool that connects to WebSocket and redirects stdin/stdout to it.
-Text mode messages are separated by newline symbol `\n`.
+Simple tool that connects to WebSocket and pipes stdin/stdout to/from it.
+Text mode messages are separated by `\n`.
 Binary mode receives/sends bytes as-is.
 
 ```sh
