@@ -21,8 +21,8 @@ func main() {
 		os.Exit(1)
 	}
 	flag.BoolVar(&binary, "binary", false, "Binary mode")
-	flag.StringVar(&origin, "origin", "", "Origin URL")
-	flag.StringVar(&protocol, "protocol", "", "Protocol name")
+	flag.StringVar(&origin, "origin", "", "Origin")
+	flag.StringVar(&protocol, "protocol", "", "Protocol")
 	flag.Parse()
 
 	url = flag.Arg(0)

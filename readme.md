@@ -15,9 +15,9 @@ Usage: ws [options] url
   -binary
     	Binary mode
   -origin string
-    	Origin URL
+    	Origin
   -protocol string
-    	Protocol name
+    	Protocol
     	
 ws wss://echo.websocket.org <<< hello
 Connected: wss://echo.websocket.org
