@@ -4,7 +4,7 @@ Simple tool that connects to WebSocket and pipes stdin/stdout to/from it.<br/>
 Text mode messages are separated by `\n`, binary mode receives/sends bytes as-is.
 
 ```sh
-go install github.com/pixelbender/ws
+go get github.com/pixelbender/ws
 ```
 
 Usage:
