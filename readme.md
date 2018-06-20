@@ -11,7 +11,7 @@ go install github.com/pixelbender/ws
 Usage:
 
 ```sh
-> ws -h
+ws -h
 Usage: ws [options] url
   -binary
     	Binary mode
@@ -20,7 +20,7 @@ Usage: ws [options] url
   -protocol string
     	Protocol name
     	
-> ws wss://echo.websocket.org <<< hello
+ws wss://echo.websocket.org <<< hello
 Connected: wss://echo.websocket.org
 hello
 ```
