@@ -1,7 +1,7 @@
 # Command line WebSocket client
 
 Simple tool that connects to WebSocket and pipes stdin/stdout to/from it.<br/>
-Text mode messages are separated by `\n`, binary mode receives/sends bytes as-is.
+In text mode messages are separated by `\n`, in binary mode sends/receives bytes as-is.
 
 <img src="https://gist.githubusercontent.com/pixelbender/46a699b2198b246fffaf28b2e336f22d/raw/ws.gif" alt="Example" width="550"/>
 
