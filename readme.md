@@ -5,21 +5,21 @@ Text mode messages are separated by `\n`, in binary mode bytes transmitted as-is
 
 <img src="https://gist.githubusercontent.com/pixelbender/46a699b2198b246fffaf28b2e336f22d/raw/ws.gif" alt="Example" width="100%"/>
 
-Install
+#### Install
 
 ```sh
 go get github.com/pixelbender/ws
 ```
 
-Example:
+#### Example
 
 ```sh
-$ ws wss://echo.websocket.org <<< hello
+# ws wss://echo.websocket.org <<< hello
 Connected: wss://echo.websocket.org
 hello
 ```
 
-Usage:
+#### Usage
 
 ```sh
 ws [options] url
